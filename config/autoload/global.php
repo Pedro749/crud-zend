@@ -15,10 +15,10 @@
 return [
     'db' => [
         'driver' => 'Pdo_Mysql',
-        'host' => 'desenvolvimento.cntsistemas.com.br',
-        'username' => 'cntsistemas',
-        'password' => 'cnt2022Maria',
-        'database' => 'zf3_helpdesk',
+        'host' => '',
+        'username' => '',
+        'password' => '',
+        'database' => '',
     ],
     'mail' => [
         'name' => 'sandbox.smtp.mailtrap.io',
@@ -26,9 +26,9 @@ return [
         'port' => 2525,
         'connection_class' => 'login',
         'connection_config' => [
-            'from' => 'pedro@pedro.com',
-            'username' => '629c56f16a2f59',
-            'password' => '7c3b02060ce77a',
+            'from' => '',
+            'username' => '',
+            'password' => '',
             'auth' => 'CRAM-MD5'
         ],
     ],
